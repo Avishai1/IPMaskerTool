@@ -10,6 +10,7 @@ namespace IPMasker
 {
     public class IPMasker
     {
+        //Random Object
         private static Random Random = new Random();
         /// <summary>
         /// Replaces the original IP addresses in the new random addresses
@@ -145,8 +146,5 @@ namespace IPMasker
                 throw;
             }
         }
-        
-        
-        
     }
 }
