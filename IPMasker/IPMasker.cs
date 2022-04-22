@@ -24,6 +24,9 @@ namespace IPMasker
                 HashSet<string> cClassAddresses = GetCClassHash(uniqeIPAddresses);
                 Dictionary<string, string> RandomizedCClassIPs = GetRandomizedCClass(cClassAddresses);
                 Dictionary<IPAddress, string> RandomizedIPAddresses = GetRandomizedIPs(uniqeIPAddresses,RandomizedCClassIPs);
+
+                //removing hashset here
+
                 string newText = text;
                 for (int i = 0; i < RandomizedIPAddresses.Count; i++)
                 {
