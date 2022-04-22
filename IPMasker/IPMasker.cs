@@ -26,6 +26,8 @@ namespace IPMasker
                 Dictionary<IPAddress, string> RandomizedIPAddresses = GetRandomizedIPs(uniqeIPAddresses,RandomizedCClassIPs);
 
                 //removing hashset here
+                //removing hashset here1
+
 
                 string newText = text;
                 for (int i = 0; i < RandomizedIPAddresses.Count; i++)
